@@ -21,6 +21,7 @@ const config: Config = {
         'neutral-three': 'hsl(236, 13%, 42%)',
         'neutral-four': 'hsl(240, 100%, 5%)',
         specific: '#F0F0F0',
+        'link-color': 'hsl(228, 45%, 44%)',
       },
     },
   },
