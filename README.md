@@ -1,3 +1,9 @@
+# Live Demo
+
+https://atsuno.github.io/frontendmentor-news-homepage
+
+>The below information is original challenge README from [CHALLENGE News homepage](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl
+)
 # Frontend Mentor - News homepage
 
 ![Design preview for the News homepage coding challenge](./challenge/design/desktop-preview.jpg)

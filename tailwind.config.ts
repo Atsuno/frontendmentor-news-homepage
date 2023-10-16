@@ -14,6 +14,12 @@ const config: Config = {
         secondary: ['var(--font-secondary)'],
       },
       colors: {
+        'primary-one': 'hsl(35, 77%, 62%)',
+        'primary-two': 'hsl(5, 85%, 63%)',
+        'neutral-one': 'hsl(36, 100%, 99%)',
+        'neutral-two': 'hsl(233, 8%, 79%)',
+        'neutral-three': 'hsl(236, 13%, 42%)',
+        'neutral-four': 'hsl(240, 100%, 5%)',
         specific: '#F0F0F0',
       },
     },

@@ -1,18 +1,12 @@
-import { Itim, Roboto } from 'next/font/google'
+import { Inter } from 'next/font/google'
 
-const fontPrimary = Roboto({
+const fontPrimary = Inter({
   subsets: ['latin'],
-  weight: ['400'],
+  weight: ['400', '700', '800'],
   variable: '--font-primary',
 })
 
-const fontSecondary = Itim({
-  subsets: ['latin'],
-  weight: ['400'],
-  variable: '--font-secondary',
-})
-
-const useFonts = [fontPrimary, fontSecondary]
+const useFonts = [fontPrimary]
 
 /* #####################
  * Magic
