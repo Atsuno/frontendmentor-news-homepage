@@ -23,6 +23,30 @@ const config: Config = {
         specific: '#F0F0F0',
         'link-color': 'hsl(228, 45%, 44%)',
       },
+      maxWidth: {
+        '8xl': '1440px',
+      },
+      padding: {
+        '10%': '10%',
+      },
+      gap: {
+        '10%': '10%',
+      },
+      keyframes: {
+        'rotate-menu': {
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(360deg)' },
+        },
+        'rotate-menu-back': {
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(-360deg)' },
+        },
+      },
+
+      animation: {
+        'rotate-menu': 'rotate-menu 1s linear infinite',
+        'rotate-menu-back': 'rotate-menu-back 1s linear infinite',
+      },
     },
   },
   plugins: [daisyui],

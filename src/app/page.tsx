@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import HeroSection from '@/app/components/hero/HeroSection'
+import TopList from '@/app/components/hero/TopList'
 
 export const metadata: Metadata = {
   title: 'Frontend Mentor | News homepage',
@@ -6,8 +8,9 @@ export const metadata: Metadata = {
 }
 
 const PageHome = () => (
-  <main className="flex min-h-screen flex-col items-center justify-center gap-10">
-    a
+  <main className="flex min-h-screen flex-col items-center gap-10 lg:max-w-8xl">
+    <HeroSection />
+    <TopList />
   </main>
 )
 
