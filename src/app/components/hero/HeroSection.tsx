@@ -23,8 +23,8 @@ const HeroSection = () => (
   <section className="flex flex-col gap-5 p-5 md:flex-row lg:gap-10 lg:px-10%">
     <div className=" md:block md:w-2/3">
       <div className="pb-8 lg:pb-10">
-        <Image className="md:hidden" width={686} height={600} priority src="/images/image-web-3-mobile.jpg" alt="hero" />
-        <Image className="hidden object-cover md:block" width={1460} height={600} priority src="/images/image-web-3-desktop.jpg" alt="hero" />
+        <Image className="md:hidden" width={686} height={600} priority src="./images/image-web-3-mobile.jpg" alt="hero" />
+        <Image className="hidden object-cover md:block" width={1460} height={600} priority src="./images/image-web-3-desktop.jpg" alt="hero" />
       </div>
       <div className="flex flex-col md:flex-row md:justify-between ">
         <h1 className=" text-5xl font-extrabold text-neutral-four md:w-1/3 md:text-4xl lg:text-5xl">The Bright Future of Web 3.0?</h1>

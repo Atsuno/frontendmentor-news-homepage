@@ -9,19 +9,19 @@ type DataList = {
 }
 
 const topLists: Array<DataList> = [{
-  src: '/images/image-retro-pcs.jpg',
+  src: './images/image-retro-pcs.jpg',
   alt: 'Retro PCs',
   ranking: '01',
   name: 'Reviving Retro PCs',
   desc: 'What happens when old PCs are given modern upgrades?',
 }, {
-  src: '/images/image-top-laptops.jpg',
+  src: './images/image-top-laptops.jpg',
   alt: 'laptops',
   ranking: '02',
   name: 'Top 10 Laptops of 2022',
   desc: 'Our best picks for various needs and budgets.',
 }, {
-  src: '/images/image-gaming-growth.jpg',
+  src: './images/image-gaming-growth.jpg',
   alt: 'gaming growth',
   ranking: '03',
   name: 'The Growth of Gaming',
